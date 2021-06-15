@@ -1,15 +1,20 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap'); */
+
 body {
     background: #ddd;
     min-height: 100vh;
     vertical-align: middle;
-    display: flex
+    display: flex;
+    font-family: 'Oswald', sans-serif !important
+
 }
 
 .card {
     margin: auto;
     width: 600px;
     padding: 3rem 3.5rem;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-shrink: 1;
 }
 
 .mt-50 {
@@ -181,7 +186,8 @@ form .row .col-2 {
     color: white;
     justify-content: center;
     padding: 2vh 0;
-    margin-top: 3vh
+    margin-top: 3vh;
+    border-radius: 12vh;
 }
 
 .btn:focus {
@@ -197,7 +203,16 @@ form .row .col-2 {
 .btn:hover {
     color: white
 }
-
+.button{
+    width: 100%;
+    background-color: rgb(65, 202, 127);
+    border-color: rgb(65, 202, 127);
+    color: white;
+    justify-content: center;
+    padding: 2vh 0;
+    margin-top: 3vh;
+    border-radius: 12vh;
+}
 input:focus::-webkit-input-placeholder {
     color: transparent
 }
@@ -212,4 +227,4 @@ input:focus::-moz-placeholder {
 
 input:focus:-ms-input-placeholder {
     color: transparent
-}
+}   
